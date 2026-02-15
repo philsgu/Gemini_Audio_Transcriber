@@ -47,8 +47,9 @@ You'll need a Google Gemini API key:
 ### Option 1: Install Globally (Recommended)
 
 ```bash
-# Clone or download the repository
-cd audio-transcriber-cli
+# Clone the repository
+git clone https://github.com/philsgu/Gemini_Audio_Transcriber.git
+cd Gemini_Audio_Transcriber
 
 # Install the package globally
 pip install -e .
