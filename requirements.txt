@@ -1,0 +1,16 @@
+# Audio Transcriber CLI Tool - Requirements
+
+# Gemini AI API
+google-generativeai>=0.3.0
+
+# Audio processing
+pydub>=0.25.1
+
+# Speech recognition
+SpeechRecognition>=3.10.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Additional audio dependencies (needed for pydub)
+# Note: You'll also need to install ffmpeg on your system
