@@ -44,20 +44,39 @@ You'll need a Google Gemini API key:
 
 ## 📦 Installation
 
-### Option 1: Install Globally (Recommended)
+### Option 1: Install Globally with pipx (Recommended)
+
+```bash
+# Install pipx if you don't have it
+brew install pipx
+pipx ensurepath
+
+# Clone the repository
+git clone https://github.com/philsgu/Gemini_Audio_Transcriber.git
+cd Gemini_Audio_Transcriber
+
+# Install the package globally
+pipx install -e .
+```
+
+Now you can use `audio-transcribe` command from anywhere!
+
+### Option 2: Install in Virtual Environment
 
 ```bash
 # Clone the repository
 git clone https://github.com/philsgu/Gemini_Audio_Transcriber.git
 cd Gemini_Audio_Transcriber
 
-# Install the package globally
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install the package
 pip install -e .
 ```
 
-Now you can use `audio-transcribe` command from anywhere!
-
-### Option 2: Install Dependencies Only
+### Option 3: Install Dependencies Only
 
 ```bash
 pip install -r requirements.txt
